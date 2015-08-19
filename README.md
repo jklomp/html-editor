@@ -7,24 +7,19 @@ This application is build with HTML, CSS and JavaScript. Because writing to file
 
 In the editor, the following elements can be selected, placed an resized: 
 
-box: 
-A box is a HTML DIV element. It forms the base element where other elements, including the box element, can be placed upon.
+box: A box is a HTML DIV element. It forms the base element where other elements, including the box element, can be placed upon.
 
-label: 
-A label is also a HTML DIV element. It is intended for displaying text. It is not possible to add child elements.
+label: A label is also a HTML DIV element. It is intended for displaying text. It is not possible to add child elements.
 
-input field: 
-HTML INPUT element with type="text".
+input field: HTML INPUT element with type="text".
 
-button:	
-HTML INPUT element with type="button".
+button:	HTML INPUT element with type="button".
 
-checkbox:	
-HTML INPUT element with type="checkbox".
+check box: HTML INPUT element with type="checkbox".
 
-select element:	
-A HTML SELECT element. Select <OPTION> elements must be added with user defined JavaScript.
+select element: A HTML SELECT element. Select <OPTION> elements must be added with user defined JavaScript.
 
-image element:	A HTML IMG element.
+image element: A HTML IMG element.
+
 
 The output of the editor is a HTML file. Elements have an id and class attribute. A style attribute defines position and size. Up to four additional attributes can be defined.
