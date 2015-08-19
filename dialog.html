@@ -1,0 +1,49 @@
+<div id="opendialogwindow" class="window" style="left:28px;top:104px;width:457px;height:319px">
+<input type="text" id="opendialogdir" class="edit" style="left:36px;top:31px;width:411px;height:20px" onblur="openDialogBlur('dir')" onkeyup="openDialogKeyUp(event)" value="">
+<div id="opendialogfilelist" class="panel" style="left:36px;top:60px;width:408px;height:176px">
+</div>
+<div id="labopendialogfile" class="dlglabel" style="left:9px;top:252px;width:22px;height:20px">file</div>
+<div id="opendialogwindowheader" class="windowheader" style="left:0px;top:0px;width:457px;height:20px" data-tags="type:intern,grip:x,moveparent:yes" onmousedown="dragStart(event);">
+</div>
+<input type="button" id="opendialogopen" class="button" style="left:272px;top:280px;width:76px;height:25px" onmousedown="opendialogopen(event)" value="Open">
+<input type="button" id="opendialogcancel" class="button" style="left:371px;top:280px;width:76px;height:25px" onmousedown="opendialogcancel(event)" value="Cancel">
+<input type="text" id="opendialogfile" class="edit" style="left:36px;top:248px;width:411px;height:20px" onblur="openDialogBlur('file')" value="">
+<img id="idx" class="img" src="dir-up.gif" style="left:8px;top:28px;width:24px;height:24px" onmousedown="selectparentdir(event)">
+</img>
+</div>
+<div id="savedialogwindow" class="window" style="left:504px;top:104px;width:507px;height:327px">
+<div id="savedialogwindowheader" class="windowheader" style="left:0px;top:0px;width:507px;height:20px" onmousedown="dragStart(event);" data-tags="type:intern,grip:x,moveparent:yes">
+</div>
+<input type="text" id="savedialogdir" class="edit" style="left:89px;top:30px;width:412px;height:20px" onblur="saveDialogBlur('dir')" onkeyup="saveDialogKeyUp(event,'dir')" value="">
+<div id="savedialogfilelist" class="panel" style="left:89px;top:59px;width:408px;height:178px">
+</div>
+<div id="labsavedialogfile" class="dlglabel" style="left:6px;top:266px;width:69px;height:20px">file name:</div>
+<input type="text" id="savedialogfile" class="edit" style="left:89px;top:262px;width:412px;height:20px" onblur="openDialogBlur('file')" value="">
+<div id="labsavedialogtype" class="dlglabel" style="left:5px;top:290px;width:80px;height:20px">save as type:</div>
+<input type="text" id="savedialogtype" class="edit" style="left:89px;top:286px;width:50px;height:20px" oninput="saveDialogExtInput()" value="">
+<input type="button" id="savedialogopen" class="button" style="left:325px;top:291px;width:76px;height:25px" onmousedown="savedialogsave(event)" value="Save">
+<input type="button" id="savedialogcancel" class="button" style="left:424px;top:291px;width:76px;height:25px" onmousedown="savedialogcancel(event)" value="Cancel">
+<img id="idx" class="img" src="dir-up.gif" style="left:61px;top:28px;width:24px;height:24px" onmousedown="savedialogparentdir(event)">
+</img>
+</div>
+<div id="yesnowindow" class="window" style="left:27px;top:462px;width:258px;height:171px">
+<div id="yesnowindowheader" class="windowheader" style="left:0px;top:0px;width:258px;height:20px" onmousedown="dragStart(event);" data-tags="type:intern,grip:x,moveparent:yes">
+</div>
+<input type="button" id="yesnowinyes" class="button" style="left:47px;top:126px;width:76px;height:25px" onmousedown="yesnowinyes(event)" value="Yes">
+<input type="button" id="yesnowinno" class="button" style="left:142px;top:126px;width:76px;height:25px" onmousedown="yesnowinno(event)" value="No">
+<div id="yesnowinmessage" class="dlglabel" style="left:25px;top:37px;width:211px;height:66px">message</div>
+</div>
+<div id="yesnocancelwindow" class="window" style="left:324px;top:465px;width:258px;height:171px">
+<div id="yesnocancelwindowheader" class="windowheader" style="left:0px;top:0px;width:258px;height:20px" onmousedown="dragStart(event);" data-tags="type:intern,grip:x,moveparent:yes">
+</div>
+<div id="yesnocancelwinmessage" class="dlglabel" style="left:25px;top:37px;width:211px;height:66px">message</div>
+<input type="button" id="yesnocancelwinyes" class="button" style="left:10px;top:131px;width:76px;height:25px" onmousedown="yesnocancelwinyes(event)" value="Yes">
+<input type="button" id="yesnocancelwinno" class="button" style="left:92px;top:131px;width:76px;height:25px" onmousedown="yesnocancelwinno(event)" value="No">
+<input type="button" id="yesnocancelwincancel" class="button" style="left:174px;top:131px;width:76px;height:25px" onmousedown="yesnocancelwincancel(event)" value="Cancel">
+</div>
+<div id="okwindow" class="window" style="left:616px;top:464px;width:258px;height:171px">
+<div id="okwindowheader" class="windowheader" style="left:0px;top:0px;width:258px;height:20px" onmousedown="dragStart(event);" data-tags="type:intern,grip:x,moveparent:yes">
+</div>
+<div id="okwinmessage" class="dlglabel" style="left:25px;top:37px;width:211px;height:66px">message</div>
+<input type="button" id="okwinok" class="button" style="left:92px;top:131px;width:76px;height:25px" onmousedown="okwinok(event)" value="ok">
+</div>

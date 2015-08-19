@@ -1,0 +1,69 @@
+<div id="div4" data-tags="type:project,grip:nsew,id:opendialogwindow,class:window" class="box" onmousedown="dragStart(event)" style="left: 28px; top: 104px; width: 457px; height: 319px; cursor: default;">opendialogwindow<input id="edit4" data-tags="type:project,grip:nsew,id:opendialogdir,class:edit,param1:onblur=&amp;quot;openDialogBlur('dir')&amp;quot;,param2:onkeyup=&amp;quot;openDialogKeyUp(event)&amp;quot;,param4:" class="edit" onmousedown="dragStart(event)" type="text" style="left: 36px; top: 31px; width: 411px; height: 20px; cursor: default;">
+<div id="div5" data-tags="type:project,grip:nsew,id:opendialogfilelist,class:panel" class="box" onmousedown="dragStart(event)" style="left: 36px; top: 60px; width: 408px; height: 176px; cursor: default;">
+</div>
+<div id="label7" data-tags="type:project,grip:nsew,id:labopendialogfile,class:dlglabel" class="prjlabel" onmousedown="dragStart(event)" style="left: 9px; top: 252px; width: 22px; height: 20px; cursor: s-resize;">file</div>
+<div id="div6" data-tags="type:project,grip:nsew,id:opendialogwindowheader,class:windowheader,param1:data-tags=&amp;quot;type&amp;alpha;intern&amp;beta;grip&amp;alpha;x&amp;beta;moveparent&amp;alpha;yes&amp;quot;,param2:onmousedown=&amp;quot;dragStart(event);&amp;quot;" class="box" onmousedown="dragStart(event)" style="left: 0px; top: 0px; width: 457px; height: 20px; cursor: s-resize;">
+</div>
+<input id="button1" data-tags="type:project,grip:nsew,id:opendialogopen,class:button,param1:onmousedown=&amp;quot;opendialogopen(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="Open" style="left: 272px; top: 280px; width: 76px; height: 25px; cursor: default;">
+<input id="button2" data-tags="type:project,grip:nsew,id:opendialogcancel,class:button,param1:onmousedown=&amp;quot;opendialogcancel(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="Cancel" style="left: 371px; top: 280px; width: 76px; height: 25px; cursor: n-resize;">
+
+<input id="edit5" data-tags="type:project,grip:nsew,id:opendialogfile,class:edit,param1:onblur=&amp;quot;openDialogBlur('file')&amp;quot;,param2:" class="edit" onmousedown="dragStart(event)" type="text" style="left: 36px; top: 248px; width: 411px; height: 20px; cursor: n-resize;">
+
+<img src="dir-up.gif" id="img1" data-tags="type:project,grip:nsew,id:idx,class:img,param1:onmousedown=&amp;quot;selectparentdir(event)&amp;quot;" class="image" onmousedown="dragStart(event)" type="image" style="left: 8px; top: 28px; width: 24px; height: 24px; cursor: w-resize;">
+
+</div>
+
+<div id="div7" data-tags="type:project,grip:nsew,id:savedialogwindow,class:window" class="box" onmousedown="dragStart(event)" style="left: 504px; top: 104px; width: 507px; height: 327px; cursor: default;">
+<div id="div8" data-tags="type:project,grip:nsew,id:savedialogwindowheader,class:windowheader,param1:onmousedown=&amp;quot;dragStart(event);&amp;quot;,param2:data-tags=&amp;quot;type&amp;alpha;intern&amp;beta;grip&amp;alpha;x&amp;beta;moveparent&amp;alpha;yes&amp;quot;" class="box" onmousedown="dragStart(event)" style="left: 0px; top: 0px; width: 507px; height: 20px; cursor: s-resize;">
+</div>
+
+
+
+<input id="edit6" data-tags="type:project,grip:nsew,id:savedialogdir,class:edit,param1:onblur=&amp;quot;saveDialogBlur('dir')&amp;quot;,param2:onkeyup=&amp;quot;saveDialogKeyUp(event&amp;beta;'dir')&amp;quot;" class="edit" onmousedown="dragStart(event)" type="text" style="left: 89px; top: 30px; width: 412px; height: 20px; cursor: w-resize;">
+
+<div id="div9" data-tags="type:project,grip:nsew,id:savedialogfilelist,class:panel" class="box" onmousedown="dragStart(event)" style="left: 89px; top: 59px; width: 408px; height: 178px; cursor: n-resize;">
+</div>
+<div id="label9" data-tags="type:project,grip:nsew,id:labsavedialogfile,class:dlglabel" class="prjlabel" onmousedown="dragStart(event)" style="left: 6px; top: 266px; width: 69px; height: 20px; cursor: n-resize;">file name:</div>
+<input id="edit7" data-tags="type:project,grip:nsew,id:savedialogfile,class:edit,param1:onblur=&amp;quot;openDialogBlur('file')&amp;quot;" class="edit" onmousedown="dragStart(event)" type="text" style="left: 89px; top: 262px; width: 412px; height: 20px; cursor: n-resize;">
+
+<div id="label10" data-tags="type:project,grip:nsew,id:labsavedialogtype,class:dlglabel" class="prjlabel" onmousedown="dragStart(event)" style="left: 5px; top: 290px; width: 80px; height: 20px; cursor: w-resize;">save as type:</div>
+<input id="edit8" data-tags="type:project,grip:nsew,id:savedialogtype,class:edit,param1:oninput=&amp;quot;saveDialogExtInput()&amp;quot;" class="edit" onmousedown="dragStart(event)" type="text" style="left: 89px; top: 286px; width: 50px; height: 20px; cursor: n-resize;">
+
+<input id="button5" data-tags="type:project,grip:nsew,id:savedialogopen,class:button,param1:onmousedown=&amp;quot;savedialogsave(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="Save" style="left: 325px; top: 291px; width: 76px; height: 25px; cursor: s-resize;">
+
+<input id="button6" data-tags="type:project,grip:nsew,id:savedialogcancel,class:button,param1:onmousedown=&amp;quot;savedialogcancel(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="Cancel" style="left: 424px; top: 291px; width: 76px; height: 25px; cursor: n-resize;">
+
+<img src="dir-up.gif" id="img2" data-tags="type:project,grip:nsew,id:idx,class:img,param1:onmousedown=&amp;quot;savedialogparentdir(event)&amp;quot;" class="image" onmousedown="dragStart(event)" type="image" style="left: 61px; top: 28px; width: 24px; height: 24px; cursor: w-resize;">
+
+</div>
+<div id="div10" data-tags="type:project,grip:nsew,id:yesnowindow,class:window" class="box" onmousedown="dragStart(event)" style="left: 27px; top: 462px; width: 258px; height: 171px; cursor: n-resize;">
+<div id="div11" data-tags="type:project,grip:nsew,id:yesnowindowheader,class:windowheader,param1:onmousedown=&amp;quot;dragStart(event);&amp;quot;,param2:data-tags=&amp;quot;type&amp;alpha;intern&amp;beta;grip&amp;alpha;x&amp;beta;moveparent&amp;alpha;yes&amp;quot;" class="box" onmousedown="dragStart(event)" style="left: 0px; top: 0px; width: 258px; height: 20px; cursor: n-resize;">
+</div>
+<input id="button7" data-tags="type:project,grip:nsew,id:yesnowinyes,class:button,param1:onmousedown=&amp;quot;yesnowinyes(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="Yes" style="left: 47px; top: 126px; width: 76px; height: 25px; cursor: s-resize;">
+
+<input id="button8" data-tags="type:project,grip:nsew,id:yesnowinno,class:button,param1:onmousedown=&amp;quot;yesnowinno(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="No" style="left: 142px; top: 126px; width: 76px; height: 25px; cursor: default;">
+
+<div id="label11" data-tags="type:project,grip:nsew,id:yesnowinmessage,class:dlglabel" class="prjlabel" onmousedown="dragStart(event)" style="left: 25px; top: 37px; width: 211px; height: 66px; cursor: default;">message</div>
+</div>
+<div id="div12" data-tags="type:project,grip:nsew,id:yesnocancelwindow,class:window" class="box" onmousedown="dragStart(event)" style="left: 324px; top: 465px; width: 258px; height: 171px; cursor: default;">
+<div id="div13" data-tags="type:project,grip:nsew,id:yesnocancelwindowheader,class:windowheader,param1:onmousedown=&amp;quot;dragStart(event);&amp;quot;,param2:data-tags=&amp;quot;type&amp;alpha;intern&amp;beta;grip&amp;alpha;x&amp;beta;moveparent&amp;alpha;yes&amp;quot;" class="box" onmousedown="dragStart(event)" style="left: 0px; top: 0px; width: 258px; height: 20px; cursor: n-resize;">
+</div>
+<div id="label12" data-tags="type:project,grip:nsew,id:yesnocancelwinmessage,class:dlglabel" class="prjlabel" onmousedown="dragStart(event)" style="left: 25px; top: 37px; width: 211px; height: 66px; cursor: default;">message</div>
+<input id="button9" data-tags="type:project,grip:nsew,id:yesnocancelwinyes,class:button,param1:onmousedown=&amp;quot;yesnocancelwinyes(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="Yes" style="left: 10px; top: 131px; width: 76px; height: 25px; cursor: s-resize;">
+
+<input id="button10" data-tags="type:project,grip:nsew,id:yesnocancelwinno,class:button,param1:onmousedown=&amp;quot;yesnocancelwinno(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="No" style="left: 92px; top: 131px; width: 76px; height: 25px; cursor: w-resize;">
+
+<input id="button11" data-tags="type:project,grip:nsew,id:yesnocancelwincancel,class:button,param1:onmousedown=&amp;quot;yesnocancelwincancel(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="Cancel" style="left: 174px; top: 131px; width: 76px; height: 25px; cursor: default;">
+
+</div>
+<div id="div14" data-tags="type:project,grip:nsew,id:okwindow,class:window" class="box" onmousedown="dragStart(event)" style="left: 616px; top: 464px; width: 258px; height: 171px; cursor: default;">
+<div id="div13" data-tags="type:project,grip:nsew,id:okwindowheader,class:windowheader,param1:onmousedown=&amp;quot;dragStart(event);&amp;quot;,param2:data-tags=&amp;quot;type&amp;alpha;intern&amp;beta;grip&amp;alpha;x&amp;beta;moveparent&amp;alpha;yes&amp;quot;" class="box" onmousedown="dragStart(event)" style="left: 0px; top: 0px; width: 258px; height: 20px; cursor: s-resize;">
+</div>
+<div id="label12" data-tags="type:project,grip:nsew,id:okwinmessage,class:dlglabel" class="prjlabel" onmousedown="dragStart(event)" style="left: 25px; top: 37px; width: 211px; height: 66px; cursor: default;">message</div>
+
+
+<input id="button10" data-tags="type:project,grip:nsew,id:okwinok,class:button,param1:onmousedown=&amp;quot;okwinok(event)&amp;quot;" class="button" onmousedown="dragStart(event)" type="button" value="ok" style="left: 92px; top: 131px; width: 76px; height: 25px; cursor: n-resize;">
+
+
+
+</div>

@@ -1,0 +1,49 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="styles.css"> 
+<link rel="stylesheet" type="text/css" href="dialog.css"> 
+
+</head>
+<title> html editor </title>
+<body onload="onload()">
+
+<div id="menu">  
+</div> 
+
+<div id="toolbar"></div>
+
+<div id="leftpane" data-tags="type:intern,grip:e,id=id,class=class" onmousedown="dragStart(event)">
+</div>
+
+<div id="infopane">
+	<div id="info"> info </div>
+	<div id="info1"> info1 </div>
+	<div id="info2"> info2 </div>
+	<div id="info3"> info3 </div>
+</div>
+
+<!-- contentpane" --> 
+<div id="contentpane" class="box" data-tags="type:intern,grip:w,id=id,class=class"  > 
+
+</div> <!-- /contentpane" -->
+
+<div id="statusbar">
+	<div class="statusinfo" id="infobar1" style="left:10px;"></div>
+	<div class="statusinfo" id="infobar2" style="left:250px;"></div>
+	<div class="statusinfo" id="infobar3" style="left:490px;"></div>
+	<div class="statusinfo" id="infobar4" style="left:730px;"></div>
+</div>
+
+<div id="popupmenu"> </div>
+<div id='dialoghtml'></div>
+<script src="main.js"></script>
+<script src="mouse.js"></script>
+<script src="leftpane.js"></script>
+<script src="dialog.js"></script>
+<script src="menu.js"></script>
+<!--<script src="http://10.0.0.9:3260/socket.io/socket.io.js"></script>-->
+<!--<script src="/socket.io/socket.io.js"></script>-->
+
+</body>
+</html>
